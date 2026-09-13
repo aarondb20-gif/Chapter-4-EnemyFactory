@@ -1,3 +1,7 @@
+package com.mygame.spawners;
+
+import com.mygame.enemies.Enemy;
+
 public abstract class EnemySpawner {
     protected abstract Enemy createEnemy(String type);
 
