@@ -13,7 +13,7 @@ public class ForestSpawner extends EnemySpawner {
         if (type.equals("goblin")) {
             return new Goblin(new WarriorEquipmentFactory());
         } else if (type.equals("wolf")) {
-            return  new Wolf( new MageEquipmentFactory());
+            return  new Wolf( new WarriorEquipmentFactory());
         }else{
             return enemy;
         }

@@ -15,4 +15,8 @@ The abstract factory encapsulates the individual weapons and armor into the Equi
 need to know which weapon or armor they need. They can just call one equipment factory to get all the related subclasses.
 
 Phase 4
+When you pass the Equipment Factory into the enemy objects you are using abstract types. It makes it easier to write code
+when you bundle related classes together. You can easily implement one factory instead of adding individual concrete 
+classes like sword, staff, robe, etc. It's easier to extend, because you can add new concrete classes, but never have to
+explicitly add them in the main program as they get grouped into factories and abstract classes instead.
 
